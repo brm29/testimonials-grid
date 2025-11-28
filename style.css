@@ -7,22 +7,22 @@
 
 body {
   font-family: "Roboto Condensed", sans-serif;
-  background-color: #F0FFFF;
+  background-color: #f0ffff;
   color: #000;
   line-height: 1.5;
-  padding: 20px;
+  padding-top: 20px;
 }
 
 /* main section styles */
 .testimonials-section {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 1rem;
+  padding-top: 0;
 }
 
 .testimonials-section h1 {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 2rem;
 }
 
@@ -34,7 +34,7 @@ body {
 
 /* testimonial cards */
 .testimonial-card {
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
   color: #fff;
@@ -42,21 +42,21 @@ body {
 
 /* background card colors */
 .card-purple {
-  background-color: #800080; 
+  background-color: #800080;
 }
 
 .card-darkgray {
-  background-color: #121212; 
+  background-color: #121212;
 }
 
 .card-white {
   background-color: #fff;
-  color: #0A0A0A;
+  color: #0a0a0a;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
 }
 
 .card-lightgray {
-  background-color: #F1F1F1; 
+  background-color: #f1f1f1;
   color: #000;
 }
 
@@ -74,9 +74,15 @@ body {
   }
 }
 
-/* computers: 3 columns */
+/* computers: 4 columns */
 @media (min-width: 900px) {
   .testimonials-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .span-2-col {
+    grid-column: span 2;
+  }
+  .span-2-row {
+    grid-row: span 2;
   }
 }
