@@ -1,0 +1,62 @@
+/* reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f0ffff;
+  color: #000;
+  line-height: 1.5;
+  padding-top: 20px;
+}
+
+/* main section styles */
+.testimonials-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 0;
+}
+
+.testimonials-section h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+/* testimonial cards */
+.testimonial-card {
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+
+/* background card colors */
+.card-purple {
+  background-color: #800080;
+}
+
+.card-black {
+  background-color: #121212;
+}
+
+.card-white {
+  background-color: #fff;
+  color: #0a0a0a;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.card-lightgray {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+/* role style */
+.role {
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
